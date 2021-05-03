@@ -3,6 +3,7 @@ declare const styles: {
   readonly "main": string;
   readonly "meWrapper": string;
   readonly "snsWrapper": string;
+  readonly "profile": string;
 };
 export = styles;
 
