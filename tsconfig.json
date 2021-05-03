@@ -21,7 +21,7 @@
     "jsx": "preserve"
   },
   "include": [
-    "pages"
+    "pages", "components"
   ],
   "exclude": [
     "node_modules"
