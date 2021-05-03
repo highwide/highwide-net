@@ -14,16 +14,21 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.meWrapper}>
           <Card src="/me.jpg" width="240" height="240" />
+          <div className={styles.profile}>
+            <div>highwide</div>
+            <div>Takahiro Uchiyama</div>
+            <div>Web developer</div>
+          </div>
         </div>
         <div className={styles.snsWrapper}>
           <a href="https://github.com/highwide">
-            <Card src="/github.png" width="240" height="240" />
+            <Card src="/github.png" width="80" height="80" />
           </a>
           <a href="https://twitter.com/highwide">
-            <Card src="/twitter.png" width="240" height="240" />
+            <Card src="/twitter.png" width="80" height="80" />
           </a>
           <a href="https://highwide.hatenablog.com/">
-            <Card src="/hatenablog-logo.svg" width="240" height="240" />
+            <Card src="/hatenablog-logo.svg" width="80" height="80" />
           </a>
         </div>
       </main>
