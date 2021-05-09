@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background-color: #fff9ee;
 }
 
 .main {
@@ -13,9 +13,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
-  background-color: #fff9ee;
   padding: 8px;
+  max-width: 1280px;
 }
 
 .meWrapper {
@@ -25,6 +24,20 @@
   width: 100%;
 }
 
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 360px;
+  height: 100%;
+  padding: 8px;
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+  Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
 .snsWrapper {
   display: flex;
   justify-content: center;
@@ -32,23 +45,19 @@
   margin: 16px;
 }
 
-.snsWrapper > a {
-  margin: 8px;
+.flickrPhotosWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin: 16px;
-  padding: 16px;
-  height: 100%;
-  width: 360px;
-  font-size: 18px;
-  background-color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-  Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
-  transform: rotate(2deg);
+.snsCard {
+  margin: 12px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.card {
+  margin: 12px;
 }
